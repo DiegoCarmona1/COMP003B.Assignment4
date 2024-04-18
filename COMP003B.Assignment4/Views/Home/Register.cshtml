@@ -2,3 +2,11 @@
 @{
 
 }
+<form asp-action="Confirmation" asp-controller="Home" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+</form>
