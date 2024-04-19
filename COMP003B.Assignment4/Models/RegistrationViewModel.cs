@@ -13,7 +13,7 @@ namespace COMP003B.Assignment4.Models
         public string Phone { get; set; }
         [Required, StringLength(100),]
         public string Address { get; set; }
-        [Required, Range(0, 4)]
+        [Required, Range(0, 99999)]
         public int ZIP { get; set; }
         [Range(0, 120)]
         public int Age { get; set; }
